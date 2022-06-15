@@ -3,9 +3,9 @@
 ::Initial Setting
 SET batFile=%~n0
 SET object=%batFile:~-7,7%
-SET Path=C:\Users\liucx\eclipse-workspace
-SET pathFrom=%Path%\testBatch\From\
-SET pathTo=%Path%\testBatch\To\
+SET Path=G:\test\testBatch
+SET pathFrom=%Path%\From\
+SET pathTo=%Path%\To\
 
 ::Create Path for Backup
 SET ymd=%date:~0,4%%date:~5,2%%date:~8,2%
